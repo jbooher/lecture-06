@@ -1,5 +1,32 @@
-/*USE SELECT2 FOR STYLING SELECTS*/
+.card {
+  width: 99%;
+  background-color: #efefef;
+  margin: 0 0 1% 1%;
+}
 
-select {
-  width: 300px;
+.card img {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+   .card {
+   float: left;
+   width: 49%;
+  }
+
+  .card:last-child {
+    width: 99%;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    width: 32%;
+  }
+
+  .card:last-child {
+    width: 32%;
+    display: block;
+  }
 }
