@@ -1,0 +1,5 @@
+/*USE SELECT2 FOR STYLING SELECTS*/
+
+select {
+  width: 300px;
+}
